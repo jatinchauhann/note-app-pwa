@@ -1,0 +1,41 @@
+[debug] [2018-07-03T17:23:49.904Z] ----------------------------------------------------------------------
+[debug] [2018-07-03T17:23:49.908Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-07-03T17:23:49.909Z] CLI Version:   3.19.2
+[debug] [2018-07-03T17:23:49.909Z] Platform:      darwin
+[debug] [2018-07-03T17:23:49.909Z] Node Version:  v9.3.0
+[debug] [2018-07-03T17:23:49.910Z] Time:          Tue Jul 03 2018 22:53:49 GMT+0530 (IST)
+[debug] [2018-07-03T17:23:49.910Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-03T17:23:49.924Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-03T17:23:49.924Z] > authorizing via signed-in user
+[debug] [2018-07-03T17:23:49.926Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-03T17:23:49.926Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/F9NvWCeb9xXIduUIZLuCubq1yeMbupzL9mKYcFU9aXg',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Jul 03 2018 22:53:49 GMT+0530 (IST)
+[debug] [2018-07-03T17:23:50.412Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-03T17:23:50.448Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pwa-noteapp  
+  
+ Tue Jul 03 2018 22:53:50 GMT+0530 (IST)
+[debug] [2018-07-03T17:23:52.115Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-03T17:23:52.116Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pwa-noteapp/tokens  
+  
+ Tue Jul 03 2018 22:53:52 GMT+0530 (IST)
+[debug] [2018-07-03T17:23:53.413Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-03T17:23:53.414Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/pwa-noteapp  
+  
+ Tue Jul 03 2018 22:53:53 GMT+0530 (IST)
+[debug] [2018-07-03T17:23:55.369Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/plchauhan/Desktop/work/pwa/pwa-noteapp'...
+[info] 
+[debug] [2018-07-03T17:23:55.372Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/427373610071/clients/_:getWebAppConfig  
+  
+ Tue Jul 03 2018 22:53:55 GMT+0530 (IST)
+[debug] [2018-07-03T17:23:56.320Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
